@@ -6,6 +6,15 @@ eJobs është aplikacion i zhilluar në platformën Android në kuadër të puni
 
 eJobs mundëson përdoruesve të tij të kërkojn dhe të gjejn punë brenda shtetit të Kosovës, me qëllim lehtësimit e këtij procesi dhe rritjen e efikasitetit.Ky aplikacion ua ofron konkurset më të reja në treg në të gjitha fushat dhe në të gjithë sektorët e punësimit si atë privat dhe atë publik.Përvec kësaj në këtë punim mund të gjenden  dhe statistikat rreth punësimit dhe papunësimin në vendin tonë të marra nga Agjencia e Statistikave të Kosovës për vitin paraprak me qëllim të  informit të qztetarëve rreth gjendjës së punësimit në vendin tonë.
 
+Këtu janë disa nga pamjet e aplikacionit
+<img src="images/Onboarding1" width="30%"/>
+<img src="images/Autentikimi" width="30%"/>
+<img src="images/131753387_2786065174991404_1930207643558888821_n" width="30%"/>
+<img src="images/131437519_329303661387427_5690871431392480099_n" width="30%"/>
+<img src="images/StatisticksView" width="30%"/>
+<img src="images/131640324_435700100955984_3464732080989479321_n" width="30%"/>
+
+
 
 ## Zhvilluar me
 
