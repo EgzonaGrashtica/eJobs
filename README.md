@@ -9,7 +9,7 @@ eJobs mundëson përdoruesve të tij të kërkojn dhe të gjejn punë brenda sht
 Këtu janë disa nga pamjet e aplikacionit
 
 <img src="images/Onboarding1.png" width="30%"/><img src="images/Autentikimi.png" width="30%"/>
-<img src="images/131753387_2786065174991404_1930207643558888821_n.jpg" width="30%"/><img src="images/BottomSheet.png" width="30%"/>
+<img src="images/131753387_2786065174991404_1930207643558888821_n.jpg" width="30%"/><img src="images/BottomSheet.png" width="30%" height="20%"/>
 <img src="images/131437519_329303661387427_5690871431392480099_n.jpg" width="30%"/><img src="images/StatisticksView.png" width="30%"/>
 <img src="images/131640324_435700100955984_3464732080989479321_n.jpg" width="30%"/>
 
