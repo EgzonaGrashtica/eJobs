@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mainPostsFragment"
+        android:title="@string/homeMenu"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="@color/colorWhite"
+        android:checked="true"
+
+      />
+
+    <item
+        android:id="@+id/item2Fragment"
+        android:title="@string/favoriteMenu"
+        android:icon="@drawable/ic_star_menu"
+        app:cnb_iconColor="@color/colorWhite"
+        />
+    <item
+        android:id="@+id/statisticsFragment"
+        android:title="@string/statisticsMenu"
+        android:icon="@drawable/ic_bar_chart_menu"
+        app:cnb_iconColor="@color/colorWhite"
+        />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profileMenu"
+        android:icon="@drawable/ic_user_menu"
+        app:cnb_iconColor="@color/colorWhite"
+       />
+
+
+</menu>

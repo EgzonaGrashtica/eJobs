@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">eJobs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_intro_title">SEARCHING FOR A JOB?</string>
+    <string name="first_intro_text">We got you covered..</string>
+    <string name="second_intro_title">CHOOSE YOUR DREAM JOB</string>
+    <string name="second_intro_text">Our app provides the latest jobs offers in hole the country.</string>
+    <string name="third_intro_title">WELCOME</string>
+    <string name="continueBtn">Continue</string>
+    <string name="getStartedBtn">Get Started</string>
+
+    <string name="emptyName">Please enter name</string>
+    <string name="emptySurname">Please enter surname</string>
+    <string name="emptyPhoneNumber">Please enter phone number</string>
+    <string name="validPhoneNumber">Please enter valid phone number</string>
+    <string name="validEmail">Please enter valid email</string>
+    <string name="emptyEmail">Please enter email</string>
+    <string name="shortPassword">Password must contain at least 6 characters</string>
+    <string name="emptyPassword">Please enter password</string>
+    <string name="confirmPassword">Password doesn\'t match</string>
+    <string name="toastAuthFailed">Authentication failed.</string>
+    <string name="alertLogOut">Are you sure you want to logout?</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="tvLogOut">Log out</string>
+
+    <string name="tvTitleForgotPassword">Forgot Your Password?</string>
+    <string name="tvSubtitleForgotPassword">Enter your email address and we will send you an email with the link to reset your password.</string>
+    <string name="btnForgotPasswordTxt">Send</string>
+    <string name="phEmail">Email</string>
+    <string name="toastEmailSend">Email is send. Check your email.</string>
+    <string name="toastEmailNotExist">An account with this email does not exist.</string>
+    <string name="toastEnterEmail">Please enter your email!</string>
+
+    <string name="firstIntroTextString">Our app provides the news job position in different sectors all over country.</string>
+
+    <string name="homeMenu">Home</string>
+    <string name="favoriteMenu">Favorite</string>
+    <string name="statisticsMenu">Statistics</string>
+    <string name="profileMenu">Profile</string>
+
+</resources>

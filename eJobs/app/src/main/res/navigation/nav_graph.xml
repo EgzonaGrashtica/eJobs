@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainPostsFragment">
+    <fragment
+        android:id="@+id/mainPostsFragment"
+        android:name="com.fiek.ejobs.fragments.MainPostsFragment"
+        android:label="MainPostsFragment" >
+        <action
+            android:id="@+id/action_mainPostsFragment_to_item2Fragment"
+            app:destination="@id/item2Fragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_mainPostsFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_mainPostsFragment_to_staticticsFragment"
+            app:destination="@id/staticticsFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/item2Fragment"
+        android:name="com.fiek.ejobs.fragments.FavoriteFragment"
+        android:label="fragment_item2"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.fiek.ejobs.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/staticticsFragment"
+        android:name="com.fiek.ejobs.fragments.StaticticsFragment"
+        android:label="fragment_statictics"
+        tools:layout="@layout/fragment_statictics" />
+</navigation>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_background_sing_up">
+
+            <TextView
+                android:id="@+id/tvSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_115sdp"
+                android:fontFamily="@font/arlrdbd"
+                android:text="Sign Up"
+                android:textSize="@dimen/_26ssp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="@dimen/_79sdp"
+                android:background="@drawable/et_style"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="@dimen/_10sdp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSignUp"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/etSurname"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/_79sdp"
+                android:background="@drawable/et_style"
+                android:drawableLeft="@drawable/ic_user_full"
+                android:drawablePadding="@dimen/_10sdp"
+                android:ems="10"
+                android:hint="Surname"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etName"
+                android:imeOptions="actionNext"/>
+
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:layout_marginLeft="@dimen/_22sdp"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:background="@drawable/et_style"
+                android:drawableLeft="@drawable/ic_message"
+                android:drawablePadding="@dimen/_10sdp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etSurname"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/_79sdp"
+                android:background="@drawable/et_style"
+                android:drawableLeft="@drawable/ic_unlock"
+                android:drawablePadding="@dimen/_10sdp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etEmail"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="@dimen/_77sdp"
+                android:background="@drawable/et_style"
+                android:drawableLeft="@drawable/ic_padlock"
+                android:drawablePadding="@dimen/_10sdp"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+            <TextView
+                android:id="@+id/tvLogIn"
+                android:layout_width="@dimen/_72sdp"
+                android:layout_height="@dimen/_33sdp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="@dimen/_37sdp"
+                android:layout_marginEnd="@dimen/_99sdp"
+                android:clickable="true"
+                android:fontFamily="@font/arlrdbd"
+                android:onClick="tvLogInFunc"
+                android:text="Log In"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvAlreadySignUp"
+                app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+
+            <TextView
+                android:id="@+id/tvAlreadySignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="@dimen/_41sdp"
+                android:layout_marginEnd="2dp"
+                android:text="Already Sign Up?"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_14ssp"
+                app:layout_constraintEnd_toStartOf="@+id/tvLogIn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+
+            <ImageButton
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="322dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:background="@drawable/btn_login_shape"
+                android:onClick="btnSignUpFunc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etConfirmPassword"
+                app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</RelativeLayout>

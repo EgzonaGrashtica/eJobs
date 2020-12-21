@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66494038096",
+    "firebase_url": "https://ejobs-433d4.firebaseio.com",
+    "project_id": "ejobs-433d4",
+    "storage_bucket": "ejobs-433d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66494038096:android:6404c1655175b63ca31155",
+        "android_client_info": {
+          "package_name": "com.fiek.ejobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66494038096-1v150oantmu4e9msn2p255aveqvjs6i4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fiek.ejobs",
+            "certificate_hash": "69ef779af02d9b6d86d2cf0d50fd918169198dc9"
+          }
+        },
+        {
+          "client_id": "66494038096-uac8egauvb0kr83tiv43k3j4kv828480.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC75cCHR_bEDZ8e10W0yfgRiATOMBocZjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66494038096-uac8egauvb0kr83tiv43k3j4kv828480.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
