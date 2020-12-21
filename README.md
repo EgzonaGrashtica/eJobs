@@ -10,7 +10,7 @@ Këtu janë disa nga pamjet e aplikacionit
 
 <img src="images/Onboarding1.png" width="30%"/><img src="images/Autentikimi.png" width="30%"/>
 <img src="images/Home.png" width="10%"/><img src="images/BottomSheet.png" width="30%" height="20%"/>
-<img src="images/Favorite.png" width="10%"/><img src="images/StatisticksView.png" width="30%"/>
+<img src="images/Favorite.png" width="10%"/><img src="images/StatisticksView.png" width="40%"/>
 <img src="images/Profili.png" width="10%"/>
 
 
